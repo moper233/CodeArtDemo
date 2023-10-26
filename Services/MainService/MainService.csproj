@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.config" />
+    <None Remove="NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.DataAccess\CodeArt.DomainDriven.DataAccess.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.Extensions\CodeArt.DomainDriven.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven\CodeArt.DomainDriven.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.EasyMQ\CodeArt.EasyMQ.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.RabbitMQ\CodeArt.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.ServiceModel.MQ\CodeArt.ServiceModel.MQ.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.ServiceModel\CodeArt.ServiceModel.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt\CodeArt.csproj" />
+    <ProjectReference Include="..\MainService.Application\MainService.Application.csproj" />
+  </ItemGroup>
+
+</Project>

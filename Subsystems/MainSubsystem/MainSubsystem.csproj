@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.DataAccess\CodeArt.DomainDriven.DataAccess.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.Extensions\CodeArt.DomainDriven.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven\CodeArt.DomainDriven.csproj" />
+    <ProjectReference Include="..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt\CodeArt.csproj" />
+  </ItemGroup>
+
+</Project>

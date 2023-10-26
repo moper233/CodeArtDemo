@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainSubsystem", "MainSubsystem.csproj", "{1D69ED66-59D6-48C9-A006-99E3043AFC5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{91F15057-CE8A-4C0D-AB04-FA7814750AD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt\CodeArt.csproj", "{E9496AF0-134E-4D7C-948F-BFA6950EE838}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.DomainDriven", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven\CodeArt.DomainDriven.csproj", "{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.DomainDriven.DataAccess", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.DataAccess\CodeArt.DomainDriven.DataAccess.csproj", "{95A5983F-C262-4EB3-A9E6-FAA347D60A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.DomainDriven.Extensions", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.DomainDriven.Extensions\CodeArt.DomainDriven.Extensions.csproj", "{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.EasyMQ", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.EasyMQ\CodeArt.EasyMQ.csproj", "{55322442-14E5-4113-B9E4-527F25DB0E64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.RabbitMQ", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.RabbitMQ\CodeArt.RabbitMQ.csproj", "{3F4FBBB2-325F-468B-903D-EF67075651BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.ServiceModel", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.ServiceModel\CodeArt.ServiceModel.csproj", "{FA613CD3-8836-46F4-82D9-B48813A35C07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeArt.ServiceModel.MQ", "..\..\..\CodeArt-Framework-NetCore\CodeArt\CodeArt.ServiceModel.MQ\CodeArt.ServiceModel.MQ.csproj", "{FAEC4E61-953E-47BA-89ED-EE9513A53851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D69ED66-59D6-48C9-A006-99E3043AFC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D69ED66-59D6-48C9-A006-99E3043AFC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D69ED66-59D6-48C9-A006-99E3043AFC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D69ED66-59D6-48C9-A006-99E3043AFC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9496AF0-134E-4D7C-948F-BFA6950EE838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9496AF0-134E-4D7C-948F-BFA6950EE838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9496AF0-134E-4D7C-948F-BFA6950EE838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9496AF0-134E-4D7C-948F-BFA6950EE838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5983F-C262-4EB3-A9E6-FAA347D60A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A5983F-C262-4EB3-A9E6-FAA347D60A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A5983F-C262-4EB3-A9E6-FAA347D60A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A5983F-C262-4EB3-A9E6-FAA347D60A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55322442-14E5-4113-B9E4-527F25DB0E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55322442-14E5-4113-B9E4-527F25DB0E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55322442-14E5-4113-B9E4-527F25DB0E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55322442-14E5-4113-B9E4-527F25DB0E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4FBBB2-325F-468B-903D-EF67075651BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4FBBB2-325F-468B-903D-EF67075651BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4FBBB2-325F-468B-903D-EF67075651BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4FBBB2-325F-468B-903D-EF67075651BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA613CD3-8836-46F4-82D9-B48813A35C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA613CD3-8836-46F4-82D9-B48813A35C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA613CD3-8836-46F4-82D9-B48813A35C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA613CD3-8836-46F4-82D9-B48813A35C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEC4E61-953E-47BA-89ED-EE9513A53851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEC4E61-953E-47BA-89ED-EE9513A53851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEC4E61-953E-47BA-89ED-EE9513A53851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEC4E61-953E-47BA-89ED-EE9513A53851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9496AF0-134E-4D7C-948F-BFA6950EE838} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{D98E25C0-95B5-45EA-8FC9-C5C5912AF56D} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{95A5983F-C262-4EB3-A9E6-FAA347D60A12} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{80A78CC4-2EC5-401F-9B1D-2AE2B17F7B55} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{55322442-14E5-4113-B9E4-527F25DB0E64} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{3F4FBBB2-325F-468B-903D-EF67075651BB} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{FA613CD3-8836-46F4-82D9-B48813A35C07} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+		{FAEC4E61-953E-47BA-89ED-EE9513A53851} = {91F15057-CE8A-4C0D-AB04-FA7814750AD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {484438B6-8E9A-406C-B3B6-48C09B4CF618}
+	EndGlobalSection
+EndGlobal
